@@ -275,9 +275,20 @@
     position: absolute;
     margin-left: 4%;
     top: 13%;
-    width: 800px;
+    width: 1000px;
+    
+   
     
   }
+
+  .hm-next{
+    width: 800px;
+    height: 5px;
+    display: flex;
+    justify-content: flex-start;
+   
+  }
+
 
   .page1{
     position: relative;

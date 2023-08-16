@@ -52,7 +52,7 @@ if (activeNavLink) {
 
 
 
-// Valorant API
+// Valorant Esports API
 async function fetchData() {
    const url = 'https://valorant-esports.p.rapidapi.com/standings/105590700081272455%252C105796322462986721%252C106027215534896262%252C107766270575498259';
    const options = {
