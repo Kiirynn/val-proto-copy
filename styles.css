@@ -1,0 +1,1370 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('valContent/Valorant-Font.ttf') format('truetype');
+    /* Additional font properties */
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+
+  /* FONTS */
+
+  h1{
+     font-size: 3rem;
+  }
+
+  h2{
+    padding: 20px;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+
+  h4{
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 1));
+    letter-spacing: 5px;
+  }
+
+  p{
+    font-size: 1.3rem;
+  }
+
+  .paras{
+    font-size: 1rem;
+  }
+
+  /* Main -------------------------------------------*/
+
+  body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+    
+    
+    
+    
+   
+  }
+
+  .main-container{
+    
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+
+  section{
+   
+    scroll-snap-align: start;
+    height: 100vh;
+    
+  }
+
+
+  /* .fade-in {
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+    
+}
+
+.fade-in.appear{
+    opacity: 1;
+   
+} */
+
+  .centered-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .centered-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-shadow{
+    box-shadow: 4px 4px 7px 4px rgba(0, 0, 0, 0.8);
+  }
+
+  .filter-shadow{
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+  }
+
+
+  :root{
+     --primary-red: #FF4655;
+     --dull-white: #D1C9C9;
+     --dark-grey: #454545;
+  }
+
+  /* NAV -------------------------------------------------------- */ 
+
+  nav{
+     position: fixed;
+     padding: 20px 0px 20px 0px;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     width: 100%;
+     backdrop-filter: blur(8px);
+     
+     
+     
+
+  }
+
+ 
+
+  ul{
+    flex-grow: 1;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0px 25px;
+  }
+
+ a{
+    font-family: 'CustomFont', sans-serif;
+    text-decoration: none;
+    padding: 10px 35px;
+    color: white;
+    
+  }
+
+  a:hover{
+    border: 4px solid white;
+    border-radius: 20px;
+    transition: 0.5s ease-out;
+  }
+
+  .nav-link-active{
+    border: 4px solid white;
+    border-radius: 20px;
+
+  }
+
+
+
+  .knife{
+    width: 75px;
+    position: absolute;
+    top: 870%;
+    right: 1%;
+    
+  }
+
+  .main-nav-bkgd{
+
+  }
+
+  #searchBtn{
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+ }
+
+  .search-bar-div{
+    
+  }
+
+  .search-bar{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .search-bar::placeholder {
+    color: white;
+  }
+
+  #arrowBtn{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    
+  }
+
+  /* FOOTER -------------------------------------------------------- */
+
+  footer{
+    background-color: #D1C9C9;
+    
+    position: absolute;
+    height: 700px;
+    width: 100%;
+   
+  }
+
+  .terms{
+    display: flex;
+    padding: 20px;
+  }
+
+  .copyright{
+
+  }
+
+  .fLogos{
+
+  }
+
+  .media-icons{
+    margin-bottom: 20px;
+  }
+
+  .insta{
+   width: 50px;
+  }
+
+  .youtube{
+    width: 60px;
+  }
+
+  .fbook{
+    width: 40px;
+  }
+
+  .i{
+    padding: 10px;
+  }
+
+  .rating{
+    width: 200px;
+  }
+
+  .media-icons{
+
+  }
+
+  .f-val{
+    width: 200px;
+  }
+
+  .f-riot{
+     width: 200px;
+  }
+
+  /* HOME -------------------------------------------------------- */ 
+
+  .logo1{
+     width: 150px;
+     padding: 0px 10px 0px 40px;
+  }
+
+  .logo2{
+    width: 75px;
+  }
+
+  .header-main{
+    position: absolute;
+    margin-left: 4%;
+    top: 13%;
+    width: 800px;
+    
+  }
+
+  .page1{
+    position: relative;
+  }
+
+  .main-vid-bkgd-case{
+    width: 100%;
+    
+  }
+
+  .main-vid-bkgd{
+    position: absolute;
+    width: 100%;
+    top: -200px;
+    left: 50%;
+    padding:0;
+    margin: 0;
+   
+    
+    
+    transform: translate(-50%, -15%);
+  }
+
+
+  .sec1-bkgd-case{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sec1-bkgd{
+    width: 100%;
+
+  }
+
+
+  .img-div-main{
+    position: absolute;
+    display: flex;
+    top: 32%;
+    left: 3%;
+    backdrop-filter: blur(8px);
+    padding: 20px;
+  }
+
+  .main-img{
+     width: 500px;
+     border: 2px solid white;
+     
+  }
+
+  .main-img-diff{
+    width: 470px;
+    border: 2px solid white;
+  }
+
+  .we-are-text{
+    position: absolute;
+    width: 800px;
+    top: 28%;
+    left: 3%;
+    
+   
+  }
+
+  .the-latest{
+    position: absolute;
+    width: 500px;
+    top: 33%;
+    left: 9%;
+    z-index: 1;
+  }
+
+  .valorant-text{
+    position: absolute;
+    width: 1100px;
+    top: 57%;
+    left: 30%;
+    
+  }
+
+
+
+  .f1, .f2, .f3{
+    
+    
+  }
+
+  .f-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+  
+  
+  }
+
+  .info-main{
+  
+    width: 600px;
+    padding: 40px;
+  }
+
+  .last-main{
+    position: absolute;
+    display: flex;
+    top: 60%;
+    left: -1%;
+    margin: 100px;
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    height: 400px;
+  }
+
+  .char-case-main{
+    position: absolute;
+    top: -150px;
+    left: 1450px;
+  }
+
+  .char1{
+     width: 1200px;
+  }
+
+  .jett-login-vid{
+    width: 250px;
+    
+  }
+
+  .btnPad{
+    border: 2px solid var(--dull-white);
+    padding: 5px;
+    width: 212px;
+    border-radius: 0px 0px 0px 15px;
+    margin: 30px;
+  }
+
+  .btnPadR{
+    border: 2px solid var(--dull-white);
+    padding: 5px;
+    width: 212px;
+    border-radius: 0px 0px 15px 0px;
+    margin: 30px;
+  }
+
+  .learnBtn{
+    border-radius: 0px 0px 0px 15px;
+    cursor: pointer;
+  }
+
+ 
+
+  .playBtn{
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+
+  .btn{
+    background-color: var(--primary-red);
+    padding: 15px;
+    color: white;
+    
+  }
+
+  .btn:hover{
+
+    background-image: linear-gradient(to right, #ff5e62, #ff9966);
+
+  }
+
+  /* HOME PAGE 2 -------------------------------------------------------- */
+
+  .page2{
+    
+  }
+
+  .page2-last{
+     position: absolute;
+     top: 165%;
+     display: flex;
+     flex-direction: row;
+     box-shadow: 7px 4px 7px 7px rgba(0, 0, 0, 0.8);
+  }
+
+  .gun1, .char-info{
+     width: 900px;
+     
+  }
+
+  .gun-text{
+    backdrop-filter: blur(8px);
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    
+  }
+  .smoke-overlay{
+    position: absolute;
+    width: 100%;
+
+  }
+  
+  /* HOME PAGE 3 -------------------------------------------------------- */
+
+  .page3{
+    
+  }
+
+  .page3-bkgd{
+    position: absolute;
+    top: 201%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page3-bkgd-case{
+
+  }
+  
+  .p3-left-div{
+     position: absolute;
+     top: 215%;
+  }
+
+  .p3-map1{
+    width: 700px;
+    border: 2px solid white;
+   
+  }
+
+  .p3-top-div, .p3-bottom-div{
+      padding: 10px;
+      margin-left: 80px;
+  }
+
+  .p3-right-div{
+    position: absolute;
+    top: 220%;
+    width: 1200px;
+    margin-left: 35%;
+  }
+
+  .p3-large-vid{
+    width: 1200px;
+    padding: 40px;
+    filter: drop-shadow(5px 0px 20px  rgba(255, 255, 255, 1));
+    
+  }
+
+  .p3-vidText-div{
+    width: 900px;
+  }
+
+  .char2{
+    width: 800px;
+    position: absolute;
+    top: -12%;
+    left: 75%;
+    
+   
+  }
+
+  .new-text{
+    position: absolute;
+    width: 600px;
+    top: 222%;
+    left: 10%;
+  }
+
+  .content-text{
+    position: absolute;
+    width: 1000px;
+    top: 235%;
+    left: 45%;
+  }
+
+  /* HOME PAGE 4 -------------------------------------------------------- */
+
+  .page4{
+    
+  }
+  
+  .p4-bkgd{
+    position: absolute;
+    width: 100%;
+    top: 300%;
+    
+  }
+
+  .p4-valorant-white{
+    position: absolute;
+    width: 1500px;
+    top: 315%;
+    left: 4%;
+    opacity: 0.5;
+  }
+
+  .p4-we-are-white{
+    position: absolute;
+    width: 1350px;
+    top: 375%;
+    left: 50%;
+    opacity: 0.5;
+  }
+
+  .white-val-logo{
+    width: 70px;
+    transform: rotate(180deg);
+    
+  }
+
+  .house{
+    width: 700px;
+    transform: scaleX(-1);
+
+  }
+
+  .dock{
+    width: 750px;
+  }
+
+  .p4-top-div{
+    position: absolute;
+    top: 308%;
+    display: flex;
+    padding: 40px;
+  
+  }
+
+  .p4-bottom-div{
+    position: absolute;
+    top: 355%;
+    display: flex;
+    padding: 40px;
+  }
+
+  .col-text{
+    padding: 100px;;
+   
+  }
+
+  .p4-btn-div{
+    position: absolute;
+    z-index: 1;
+    top: 370%;
+    right: -1%;
+  }
+
+  .top-btn{
+    border-radius: 0px 0px 0px 15px;
+    cursor: pointer;
+    padding: 20px;
+    width: 200px;
+  
+  }
+
+
+  /* NEWS P1 -------------------------------------------------------- */ 
+
+
+
+.news1-bkgd, footer{
+  
+  width: 100%;
+}
+
+.news1-valorant-white{
+  position: absolute;
+  top: 80%;
+  left: 55%;
+  opacity: 0.7;
+
+}
+
+.news1-we-are-white{
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  opacity: 0.7;
+}
+
+.news1-vid-div{
+  position: absolute;
+  top: 24%;
+  left: 38%;
+
+}
+
+.patches{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.now{
+  position: absolute;
+  top: 22%;
+  left: 70%;
+  font-size: 2em;
+}
+
+.news-header{
+  position: absolute;
+  top: 10%;
+  left: 27%;
+  font-size: 6em;
+}
+
+.viper-des{
+  width: 600px;
+}
+
+
+.viper-intro{
+  width: 600px;
+  border: 2px solid white;
+}
+
+#d-arrow{
+  position: absolute;
+  top: 70%;
+  left: 15%;
+  font-size: 100px;
+}
+
+
+  /* NEWS P2 -------------------------------------------------------- */ 
+
+
+  .newsp2-main{
+    position: absolute;
+    top: 125%;
+
+  }
+
+  .newsp2-header{
+    position: absolute;
+    top: -20%;
+    left: 100%;
+    font-size: 5em;
+  }
+  
+  .newsp2-info{
+    padding: 60px;
+    width: 800px;
+  }
+
+  .p2-content{
+    display: flex;
+    padding: 80px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+  }
+
+  .newsp2-img1, .newsp2-img2 {
+    width: 700px;
+    border: 2px solid white;
+  }
+
+  #side-arrow{
+    padding: 30px;
+    font-size: 40px;
+  }
+
+  #d-arrowp2{
+    position: absolute;
+    top: 60%;
+    left: 120%;
+    font-size: 100px;
+  }
+
+
+/* NEWS P3 */ 
+
+.newsp3-main{
+  position: absolute;
+  top: 235%;
+  
+
+}
+
+
+
+/* Media p1 -------------------------------------------------------- */ 
+
+.media-bkgd-p1{
+  width: 122%;
+}
+
+.mediaH1{
+  position: absolute;
+  top: -13%;
+  left: 5%;
+}
+
+.mediaH2{
+  position: absolute;
+  top: 85%;
+  left: 35%;
+}
+
+.media-main{
+ 
+  position: absolute;
+  display: flex;
+  top: 62.5%;
+  backdrop-filter: blur(8px);
+  width: 100%;
+}
+
+
+.media-main-info{
+   margin-left: 400px;
+   
+}
+
+.media-main-para{
+  font-size: 1.2rem;
+}
+
+.media-2nd{
+  width: 700px;
+}
+
+.info-header{
+  display: flex;
+  padding: 50px;
+}
+
+.info-para{
+  
+}
+
+.media-logo{
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+.phoenix{
+  width: 1100px;
+}
+
+.cypher{
+  width: 250px;
+  position: absolute;
+  right: 100px;
+}
+
+.small-val-logo{
+  width: 200px;
+}
+
+
+/* Media p2 */
+
+.media-p2-bkgd{
+  width: 100%;
+}
+
+.mediap2-main{
+  position: absolute;
+  left: 5%;
+  top: 110%
+}
+
+.class1, .ability-info, .abil-icons  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  padding: 100px;
+  
+
+}
+
+.media2-header-div{
+  position: absolute;
+  top: 105%;
+  left: 8%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.header1-media{
+  padding: 0;
+  margin-top: 0;
+  margin-left: 55%;
+}
+
+
+.class1{
+  margin-bottom: 35%;
+  
+}
+
+.ability-info{
+  margin-top: 5%;
+}
+
+.we-are-media{
+  position: absolute;
+  top: 170%;
+  left: 6%;
+  opacity: 0.7;
+}
+
+.yoru-header{
+
+  font-size: 4rem;
+  padding: 0;
+  margin: 0;
+}
+
+.yoru{
+  width: 800px;
+  
+}
+
+.abil{
+  width: 100px;
+  margin: 50px;
+}
+
+#media-arrow{
+  position: absolute;
+  top: 195%;
+  left: 45%;
+  font-size: 10rem;
+}
+
+/* Media p3 -------------------------------------------------------- */
+
+.media-p3{
+
+}
+
+.mediap3-main{
+  position: absolute;
+  left: 5%;
+  top: 220%
+}
+
+.media3-header-div{
+  position: absolute;
+  top: 214%;
+  right: 6%;
+  display: flex;
+  flex-direction: column;
+ 
+  
+}
+
+
+.cypher-header{
+  padding: 0;
+  margin: 0;
+  font-size: 4rem;
+}
+
+.header2-media{
+  padding: 0;
+  margin-top: 0;
+  margin-left: 65%;
+}
+
+.valorant-media{
+  position: absolute;
+  top: 290%;
+  left: 60%;
+  opacity: 0.7;
+}
+
+.cypher-div{
+  
+}
+
+.cypher-media{
+  width: 990px;
+}
+
+#media-arrow2{
+  position: absolute;
+  top: 306%;
+  left: 45%;
+  font-size: 10rem;
+}
+
+
+/* Media p4 -------------------------------------------------------- */
+
+.media4-header-div{
+  position: absolute;
+  top: 325%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.jett-header{
+  padding: 0;
+  margin: 0;
+  font-size: 4rem;
+}
+
+.header3-media{
+  padding: 0;
+  margin-top: 0;
+  margin-left: 45%;
+}
+
+.mediap4-main{
+  position: absolute;
+  left: -4%;
+  top: 330%
+}
+
+
+.jett-media{
+  width: 990px;
+}
+
+
+
+.we-are-media4{
+  position: absolute;
+  top: 390%;
+  left: 4%;
+  opacity: 0.7;
+}
+
+/* ESPORTS main -------------------------------------------------------- */
+
+.logo1e{
+   width: 50px;
+   margin: 30px;
+}
+
+.esports-p1{
+
+}
+
+.scores-div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  height: 300px;
+  top: 12%;
+  width: 100%;
+  margin-bottom: 100px;
+  background: linear-gradient(to bottom, #888888, var(--dark-grey));
+  border: 4px solid white;
+  
+}
+
+.scores{
+  border-right: 2px solid white; ;
+  width: 16.6%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.team1{
+  display: flex;
+}
+
+.team{
+  width: 70px;
+  padding: 15px;
+}
+
+.time{
+
+}
+
+.e-news{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 11%;
+  top: 20%;
+  margin-top: 10%;
+  text-align: center;
+  
+}
+
+#l-arrow{
+   font-size: 6rem;
+}
+
+#r-arrow{
+  font-size: 6rem;
+}
+
+.cards{
+  background-image: linear-gradient(to right, var(--dull-white), var(--dark-grey));
+  border: 3px solid white;
+  height: 700px;
+  margin: 40px;
+}
+
+.time{
+  color: orange;
+  margin-left: 50%;
+}
+
+.esports-bkgd{
+  width: 100%;
+  filter: blur(4px)
+}
+
+.esports-bkgd-noblur{
+  width: 100%;
+  
+}
+
+.ryzen-div{
+  background-color: black;
+}
+
+.card-img{
+  height: 300px;
+  
+}
+
+.date{
+ margin-top: 45%;
+ font-size: smaller;
+}
+
+.latest1{
+  position: absolute;
+  top: 33%;
+  left: 8%;
+  letter-spacing: 2px;
+}
+
+.read-more{
+ 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+
+#rm-arrow{
+   margin: 10px ;
+   font-size: 2rem;
+}
+
+.ecard-info{
+
+  padding: 0;
+  margin: 0;
+  width: 370px;
+
+}
+
+/* ESPORTS p2 -------------------------------------------------------- */
+
+.ep2-main{
+  position: absolute;
+  top: 160%;
+  left: 13%;
+}
+
+.drops-div{
+   border: 2px solid var(--dull-white);
+   padding: 20px;
+   width: 1250px;
+   border-radius: 0px 0px 10px 0px;
+   z-index: 1;
+}
+
+.drops-img{
+  border: 4px solid white;
+  width: 1200px;
+}
+
+.vod-container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.vod-border{
+  border: 4px solid var(--dull-white);
+  padding: 20px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  width: 500px;
+  height: 200px;
+
+}
+
+.past-vods{
+  padding: 40px;
+  width: 400px;
+  border: 5px solid white;
+  background-color: var(--dark-grey);
+  margin-bottom: 60px;
+ 
+  width: 500px;
+  height: 200px;
+  
+}
+
+.logo1-div{
+  padding: 20%;
+}
+
+.vod-logo{
+  width: 80px;
+  
+}
+
+.play-btn-div{
+
+  margin-top: 10%;
+}
+
+.drops-title{
+  position: absolute;
+  top: 150%;
+  left: 5%;
+}
+
+#play-circle{
+  font-size: 50px;
+}
+
+.twitch-logo{
+  position: absolute;
+  
+  top: 156%;
+  left: 60%;
+  width: 50px;
+}
+
+.WPV{
+  position: absolute;
+  top: -20%;
+  left: 82%;
+  font-size: 1.5rem;
+}
+
+.bkgd-div{
+  position: absolute;
+  top: 20%;
+  left: -30%;
+  width: 1450px;
+  height: 750px;
+  border: 7px solid var(--dull-white);
+  border-radius: 0px 0px 20px 0px;
+
+}
+
+/* ESPORTS p3 -------------------------------------------------------- */
+
+.ep3-main{
+  position: absolute;
+  top: 240%;
+  left: 5%;
+}
+
+.ep3-cards{
+  display: flex;
+  
+
+}
+
+.ep3-card{
+  width: 600px;
+  padding: 50px;
+  margin: 100px;
+}
+
+.ep3-img{
+  width: 600px;
+  border: 2px solid white;
+}
+
+.connect{
+  position: absolute;
+  width: 1500px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+border: 4px solid var(--dull-white);
+border-radius: 0px 0px 20px 0px;
+margin-left: 300px;
+top: 115%;
+left: -35%;
+}
+
+.e-icons{
+  width: 130px;
+  padding: 30px;
+}
+
+.ep3-img-border{
+  padding: 20px;
+  border: 2px solid var(--dull-white);
+  border-radius: 0px 0px 20px 0px;
+}
+
+.ep3-btn-div{
+  position: absolute;
+  top: 100%;
+  right: 0%
+}
+
+.connect-header{
+  font-size: 2rem;
+}
+
+/* Service Record p3 -------------------------------------------------------- */
+
+.srp1-main{
+
+}
+
+.srp1-header{
+  
+}
+
+.lead-input{
+  position: absolute;
+  top: 30%;
+  
+}
+
+.lead-bar{
+  width: 600px;
+  height: 50px;
+  background-color: white;
+}
+
+
+
+.leader-btns{
+  display: flex;
+}
+
+.blur-box{
+ backdrop-filter: blur(15px);
+ background-color: rgba(0, 0, 0, 0.2);
+ width: 100%;
+ height: 40%;
+ position: absolute;
+ top: 70%;
+}
+
+.sr-btn-div{
+
+}
+
+.blur-options{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.lead-btnL {
+  border-radius: 0px 0px 0px 15px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.lead-btnR{
+  border-radius: 0px 0px 15px 0px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+#lead-mag-icon{
+  margin: 20px;
+  font-size: 3rem;
+}
