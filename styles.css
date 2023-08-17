@@ -69,16 +69,16 @@
   }
 
 
-  /* .fade-in {
+  .fade-in {
     opacity: 0;
-    transition: opacity 150ms ease-in-out;
+    transition: opacity 500ms ease-in-out;
     
 }
 
 .fade-in.appear{
     opacity: 1;
-   
-} */
+    
+}
 
   .centered-column{
     display: flex;
@@ -723,13 +723,13 @@
 
   .newsp2-main{
     position: absolute;
-    top: 125%;
+    top: 113%;
 
   }
 
   .newsp2-header{
     position: absolute;
-    top: -20%;
+    top: 0%;
     left: 100%;
     font-size: 5em;
   }
@@ -768,7 +768,7 @@
 
 .newsp3-main{
   position: absolute;
-  top: 235%;
+  top: 213%;
   
 
 }
@@ -856,7 +856,7 @@
 .mediap2-main{
   position: absolute;
   left: 5%;
-  top: 110%
+  top: 105%
 }
 
 .class1, .ability-info, .abil-icons  {
@@ -871,8 +871,8 @@
 
 .media2-header-div{
   position: absolute;
-  top: 105%;
-  left: 8%;
+  top: 113%;
+  left: 7%;
   display: flex;
   flex-direction: column;
  
@@ -910,6 +910,8 @@
 
 .yoru{
   width: 800px;
+  position: relative;
+  left: 10%;
   
 }
 
@@ -934,13 +936,13 @@
 .mediap3-main{
   position: absolute;
   left: 5%;
-  top: 220%
+  top: 206%
 }
 
 .media3-header-div{
   position: absolute;
   top: 214%;
-  right: 6%;
+  right: 3%;
   display: flex;
   flex-direction: column;
  
@@ -973,6 +975,8 @@
 
 .cypher-media{
   width: 990px;
+  position: relative;
+  right: 10%;
 }
 
 #media-arrow2{
@@ -987,8 +991,8 @@
 
 .media4-header-div{
   position: absolute;
-  top: 325%;
-  left: 10%;
+  top: 320%;
+  left: 3%;
   display: flex;
   flex-direction: column;
 }
@@ -1008,12 +1012,14 @@
 .mediap4-main{
   position: absolute;
   left: -4%;
-  top: 330%
+  top: 305%
 }
 
 
 .jett-media{
   width: 990px;
+  position: relative;
+  left: 15%;
 }
 
 
@@ -1078,7 +1084,7 @@
   justify-content: space-around;
   align-items: center;
   position: absolute;
-  left: 11%;
+  left: 13%;
   top: 20%;
   margin-top: 10%;
   text-align: center;
@@ -1107,6 +1113,7 @@
 
 .esports-bkgd{
   width: 100%;
+  height: 100vh;
   filter: blur(4px)
 }
 
@@ -1161,7 +1168,7 @@
 
 .ep2-main{
   position: absolute;
-  top: 160%;
+  top: 125%;
   left: 13%;
 }
 
@@ -1222,7 +1229,7 @@
 
 .drops-title{
   position: absolute;
-  top: 150%;
+  top: 115%;
   left: 5%;
 }
 
@@ -1233,7 +1240,7 @@
 .twitch-logo{
   position: absolute;
   
-  top: 156%;
+  top: 120%;
   left: 60%;
   width: 50px;
 }
@@ -1260,7 +1267,7 @@
 
 .ep3-main{
   position: absolute;
-  top: 240%;
+  top: 215%;
   left: 5%;
 }
 
@@ -1290,8 +1297,8 @@ align-items: center;
 border: 4px solid var(--dull-white);
 border-radius: 0px 0px 20px 0px;
 margin-left: 300px;
-top: 115%;
-left: -35%;
+top: 90%;
+right: 60%;
 }
 
 .e-icons{
@@ -1307,8 +1314,8 @@ left: -35%;
 
 .ep3-btn-div{
   position: absolute;
-  top: 100%;
-  right: 0%
+  top: 80%;
+  right: -3%
 }
 
 .connect-header{

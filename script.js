@@ -27,27 +27,27 @@ if (activeNavLink) {
   
   //intersection observer---------------------------------------------
 
-//   const faders = document.querySelectorAll('.fade-in');
+  const faders = document.querySelectorAll('.fade-in');
 
-//   const appearOptions = {
-//    threshold: 0, 
-//    rootMargin: "0px 0px -250px 0px",
-// };
+  const appearOptions = {
+   threshold: 0, 
+   rootMargin: "0px 0px -250px 0px",
+};
 
-//   const appearOnScroll = new IntersectionObserver((entries, appearOnScroll) =>{
-//       entries.forEach((entry) => {
-//          entry.target.classList.toggle("appear", entry.isIntersecting)
-//       })
-//   }, appearOptions)
+  const appearOnScroll = new IntersectionObserver((entries, appearOnScroll) =>{
+      entries.forEach((entry) => {
+         entry.target.classList.toggle("appear", entry.isIntersecting)
+      })
+  }, appearOptions)
 
 
 
-// faders.forEach(fader => {
+faders.forEach(fader => {
     
-//    appearOnScroll.observe(fader);
+   appearOnScroll.observe(fader);
    
    
-// });
+});
 
 
 
